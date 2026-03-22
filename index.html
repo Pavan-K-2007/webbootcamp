@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaskMaster - Your Personal To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>📝 TaskMaster</h1>
+        <p class="subtitle">Your Personal To-Do List App</p>
+
+        <div class="creator-info">
+          <div class="avatar">AS</div>
+          <div class="bio">
+            <h3>Arjun Sharma</h3>
+            <p>
+              Electronics Engineering Student | Passionate about creating
+              practical web apps and sustainable tech solutions
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="input-section">
+          <input
+            type="text"
+            id="taskInput"
+            placeholder="What needs to be done today? 💡"
+            maxlength="100"
+          />
+          <button id="addBtn">Add Task</button>
+        </section>
+
+        <ul class="task-list" id="taskList">
+          <!-- Tasks will be added here dynamically -->
+        </ul>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
