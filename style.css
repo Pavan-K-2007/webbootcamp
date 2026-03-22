@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "jokerman", Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   min-height: 100vh;
   padding: 20px;
@@ -14,14 +14,14 @@ body {
 .container {
   max-width: 600px;
   margin: 0 auto;
-  background: white;
+  background: rgb(39, 38, 38);
   border-radius: 20px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 
 header {
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, #f84444 0%, #00a6ff 100%);
   color: white;
   padding: 30px;
   text-align: center;
@@ -47,11 +47,19 @@ h1 {
   border-top: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-width: 12px;
+  border-color: #000000;
+}
+
 .avatar {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 10px solid rgb(255, 0, 0);
   background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
   display: flex;
   align-items: center;
@@ -86,8 +94,8 @@ main {
 #taskInput {
   flex: 1;
   padding: 15px 20px;
-  border: 2px solid #e0e0e0;
-  border-radius: 50px;
+  border: 2px solid #fc0000;
+  border-radius: 10px;
   font-size: 1.1em;
   outline: none;
   transition: all 0.3s ease;
@@ -100,18 +108,18 @@ main {
 
 #addBtn {
   padding: 15px 30px;
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, #fef24f 0%, #00f2fe 100%);
   color: white;
   border: none;
-  border-radius: 50px;
+  border-radius: 10px;
   font-size: 1.1em;
-  font-weight: 600;
+  font-weight: 300;
   cursor: pointer;
   transition: transform 0.2s ease;
 }
 
 #addBtn:hover {
-  transform: translateY(-2px);
+  size-adjust: 200px;
 }
 
 .task-list {
